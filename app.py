@@ -10,7 +10,7 @@ gmaps = googlemaps.Client(key='AIzaSyCFIANOv-8NnhS4JFjyuwqVOlhcTWxK6ys')
 
 @app.route('/')
 def home():
-    return render_template('home.html')  # Title page
+    return render_template('index.html')  # Title page
 
 
 @app.route('/bus-routes', methods=['GET', 'POST'])
